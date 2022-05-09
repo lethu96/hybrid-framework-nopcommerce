@@ -1,4 +1,4 @@
-package pageObjects.user;
+package pageObjects.account;
 
 public class LoginPageObject {
 

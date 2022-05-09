@@ -2,7 +2,7 @@
 <suite parallel="false" name="Suite">
   <test name="Test">
     <classes>
-      <class name="com.techpanda.admin.Admin_01_Login"/>
+      <class name="com.techpanda.account.Level_01_DRY"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
