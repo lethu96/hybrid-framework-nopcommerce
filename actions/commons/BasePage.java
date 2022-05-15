@@ -15,24 +15,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 //Quản lí action trong từng page
 public class BasePage {
-	/* Web browser */
-	// 1. Access Modifier: public
-	// 2. Kieu tra ve cua ham
-	// 2.1 - void: Action (click/clear/sendkey/open..)
-	// 2.2 Lay du lieu ra: string/int..
-	// getXX 
-	// 3 Ten ham
-	// 3.1 tính năng này để làm gì -> tên
-	// 3.2 Convention (Camel case)
-	// 4 - Tham so truyen vao
-	// Khai bao 1 bien ben trong: Kieu du lieu - ten du lieu: String addressName..
-	// Kieu du lieu tra ve trong ham - tuong ung voi kieu tra ve cua ham
-	// 5.1 void: ko ca n return
-	// 5.2 khac void thi return dung capacity
-	
-	// Note:
-	// 1 - Tham so bat buoc cua 1 ham tuong tac vs Web Brower
-	
+	public static BasePage getBasePageInstance() {
+		return new BasePage();
+	}
 	/**
 	 * Open any page Url
 	 * @author Thu chan
